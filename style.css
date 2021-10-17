@@ -1,6 +1,136 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
+/* ==>Mobile view<== */
+
+.section1
+{
+    width: 100%;
+    height: 33.33vh;
+}
+.section2
+{
+    width: 100%;
+    height: 33.33vh;
+    background-color: rgb(47, 177, 177);
+}
+.section3
+{
+    width: 100%;
+    height: 33.33vh;
+    background-color: rgb(47, 204, 204);
+}
+.p1
+{
+   font-size: 25px; 
+   font-weight: bold;
+   color: rgb(88, 219, 219);
+   padding-top: 15px;
+   padding-left: 35px;
+   padding-bottom: 15px;
+   font-family: "karla";
+}
+ .p2
+{
+    font-size: 20px;
+    padding-left: 35px;
+    color: greenyellow;
+    font-weight: bold;
+    font-family: "karla";
+}
+.p3
+{
+    padding-left: 35px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: grey;
+    font-family: "karla";
+}
+.p4
+{
+    font-size: 20px; 
+   padding-left: 35px;
+   color: white;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: "karla";
+}
+.sp1
+{
+    padding-top: 10px;
+    padding-left: 35px;
+    color: floralwhite;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "karla";
+}
+.sp2
+{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.836);
+    padding-left: 10px;
+    font-family: "karla";
+}
+.p5
+{
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.836);
+    padding-left: 35px;
+    font-family: "karla";
+}
+.button1
+{
+    color: floralwhite;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    background-color: greenyellow;
+    
+    font-size: 20px;
+    
+    border-radius: 10px;
+    border: greenyellow;
+   
+}
+
+
+.p6
+{
+    font-size: 25px;
+    padding-left: 35px;
+   color: white;
+   padding-top: 20px;
+   font-family: "karla";
+}
+.p7
+{
+   font-size: 15px;
+   color:rgba(255, 255, 255, 0.836);
+   padding-left: 35px;
+   font-family: "karla";
+
+} 
+/* ==>Desktop view<== */
+
+@media screen and (min-width: 500px) {
+    
+    .p1, .p2, .p3, .section1, .section2, .section3, .p4, .sp1, .sp2, .p5, .division, .button1, .p6, .p7 {
+
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 499px){
+    .heading1,.heading2,.paragraph1,.paragraph2,.span1,.span2,.paragraph3,.button,.section11,.section12,.Head{
+        display: none;
+    }
+} 
+    
 .heading1
 {
     color:darkturquoise;
@@ -8,24 +138,19 @@
     padding-top: 25px;
     font-family: "karla";
     font-size: 30px;
-    /* margin-top: 25px;
-    margin-left: 24px;
-    padding: 100px,75px,70px,27px;  */
+    
 }
 .heading2
 {
     color:greenyellow;
     padding-left: 24px;
     font-family: "karla";
-    /* margin-left: 24px;
-    padding: 100px,75px,70px,27px;  */
+    
 }
 .paragraph1
 {
     color:lightgrey;
     padding-left: 24px;
-    /* margin-left: 24px;
-    padding: 100px,75px,70px,27px;  */
     font-family: "karla";
     font-size: 25px;
 }
@@ -79,30 +204,30 @@
 
 .Head {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
 }
 
-.section1 {
+.section11 {
     width: 50%;
     height: 50vh;
     float: left;
-    background-color:rgb(10, 209, 212);
+    background-color: rgb(47, 177, 177);
      padding-bottom: 30px;
     padding-top: 20px ; 
     
     font-family: "karla";
 }
    
-.section2 {
+.section12 {
     width: 50%;
     height: 50vh;
     float: left;
-    background-color:rgb(94, 212, 214);
+    background-color: rgb(75, 190, 190);
     padding: 30px;
     color: floralwhite;
     font-family: "karla";
     font-size: 20px;
     
-}
-
+} 
+  
 
